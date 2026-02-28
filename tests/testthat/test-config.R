@@ -23,12 +23,12 @@ test_that("perplexica_set_url() overwrites a previously set URL", {
 })
 
 test_that("%||% returns left-hand side when non-NULL", {
-  expect_equal(perplexica:::`%||%`("a", "b"), "a")
-  expect_equal(perplexica:::`%||%`(0L,   99L), 0L)
-  expect_equal(perplexica:::`%||%`(FALSE, TRUE), FALSE)
+  expect_equal(perplexicaR:::`%||%`("a", "b"), "a")
+  expect_equal(perplexicaR:::`%||%`(0L,   99L), 0L)
+  expect_equal(perplexicaR:::`%||%`(FALSE, TRUE), FALSE)
 })
 
 test_that("%||% returns right-hand side when left is NULL", {
-  expect_equal(perplexica:::`%||%`(NULL, "b"), "b")
-  expect_equal(perplexica:::`%||%`(NULL, 42L), 42L)
+  expect_equal(perplexicaR:::`%||%`(NULL, "b"), "b")
+  expect_equal(perplexicaR:::`%||%`(NULL, 42L), 42L)
 })

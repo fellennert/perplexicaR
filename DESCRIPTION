@@ -1,9 +1,9 @@
-Package: perplexica
+Package: perplexicaR
 Type: Package
 Title: R Client for the Perplexica AI Search API
 Version: 0.1.0
 Authors@R: person("Felix", "Lennert", role = c("aut", "cre"),
-    email = "your@email.com",
+    email = "felix.lennert@icloud.com",
     comment = c(ORCID = ""))
 Description: A client for the Perplexica self-hosted AI search engine.
     Provides Docker lifecycle management so Perplexica can be started from R,

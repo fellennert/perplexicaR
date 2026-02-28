@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(perplexica)
+library(perplexicaR)
 
-test_check("perplexica")
+test_check("perplexicaR")
