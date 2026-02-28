@@ -1,0 +1,26 @@
+Package: perplexica
+Type: Package
+Title: R Client for the Perplexica AI Search API
+Version: 0.1.0
+Authors@R: person("Felix", "Lennert", role = c("aut", "cre"),
+    email = "your@email.com",
+    comment = c(ORCID = ""))
+Description: A client for the Perplexica self-hosted AI search engine.
+    Provides Docker lifecycle management so Perplexica can be started from R,
+    a batch search helper with checkpoint/resume support, and an ellmer tool
+    definition for use in agentic LLM pipelines.
+License: MIT + file LICENSE
+URL: https://github.com/fellennert/perplexicaR
+BugReports: https://github.com/fellennert/perplexicaR/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    httr2
+Suggests:
+    ellmer,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3

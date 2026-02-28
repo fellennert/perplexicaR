@@ -1,0 +1,55 @@
+# R build artefacts
+*.Rcheck/
+..Rcheck/
+*.tar.gz
+*.tgz
+
+# R session data
+.RData
+.RDataTmp
+.Rhistory
+.Ruserdata
+
+# RStudio project files
+.Rproj.user/
+*.Rproj
+
+# roxygen2 — don't track the cache, only the outputs
+/.Rd2pdf*
+
+# devtools / pkgdown
+docs/
+inst/doc/
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*.R
+
+# CRAN submission
+CRAN-SUBMISSION
+cran-comments.md
+revdep/
+
+# Test artefacts
+tests/testthat/_snaps/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Dropbox
+.dropbox
+.dropbox.cache
+Icon
+
+# Environment / secrets — never commit API keys
+.env
+.Renviron
+Renviron.site
+
+# Temporary / editor files
+*~
+*.swp
+*.swo
+\#*\#
